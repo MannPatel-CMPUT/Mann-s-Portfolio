@@ -7,8 +7,9 @@ import "@fontsource/ibm-plex-mono/500.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mann Patel | Portfolio",
-  description: "The portfolio of Mann Patel.",
+  title: "Mann Patel — Software Developer",
+  description:
+    "Computing Science student at the University of Alberta, building full-stack applications, AI-powered systems, and practical tools that solve real-world problems.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

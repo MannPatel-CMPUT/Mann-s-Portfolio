@@ -15,7 +15,7 @@ No personal content, project claims, links, screenshots, resume files, or photog
 | GitHub profile link | Pending | Confirm the exact public profile URL |
 | LinkedIn profile link | Pending | Confirm the exact public profile URL |
 | Email address | Pending | Confirm the public contact address and intended use |
-| NYC hero photograph | Missing | Select a locally stored image with a documented license and attribution/usage terms; verify natural daylight color and composition |
+| NYC hero photograph | Selected and documented | Locally stored Unsplash photograph by Bradley Andrews; source, download variant, and Unsplash License recorded in `public/images/README.md`; visually reviewed for cloudy daylight, city color, and composition |
 | Project screenshots | Missing | Obtain authentic screenshots and confirm publication rights; do not fabricate product UI |
 | Other photography/assets | Pending | Record source, license, attribution requirements, and permission for each asset |
 
