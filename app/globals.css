@@ -456,6 +456,106 @@ a {
   margin: 0.55rem 0 0;
 }
 
+.city-gallery {
+  background: var(--color-stone);
+  padding: clamp(4.5rem, 9vw, 8rem) clamp(1.25rem, 5vw, 5rem);
+}
+
+.city-gallery__inner {
+  margin-inline: auto;
+  max-width: 90rem;
+}
+
+.city-gallery__header {
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  max-width: 48rem;
+}
+
+.city-gallery__title {
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: clamp(3.25rem, 6vw, 5.25rem);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1;
+  margin: 1.25rem 0 0;
+}
+
+.city-gallery__title em {
+  color: var(--color-copper-deep);
+  font-weight: 400;
+}
+
+.city-gallery__description {
+  color: var(--color-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 1rem 0 0;
+  max-width: 34rem;
+}
+
+.city-gallery__grid {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: clamp(12rem, 20vw, 19rem);
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.city-gallery__item {
+  isolation: isolate;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.city-gallery__item::after {
+  background: linear-gradient(180deg, transparent 50%, rgb(0 0 0 / 58%) 100%);
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.city-gallery__item img {
+  object-fit: cover;
+  transition: transform 350ms ease;
+}
+
+.city-gallery__item:hover img {
+  transform: scale(1.025);
+}
+
+.city-gallery__item figcaption {
+  bottom: 1rem;
+  color: var(--color-white);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  left: 1rem;
+  letter-spacing: 0.1em;
+  position: absolute;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.city-gallery__item--workspace,
+.city-gallery__item--street {
+  grid-column: span 7;
+}
+
+.city-gallery__item--bridge,
+.city-gallery__item--brick {
+  grid-column: span 5;
+}
+
+.city-gallery__item--subway {
+  grid-column: span 5;
+}
+
+.city-gallery__item--tower {
+  grid-column: span 7;
+}
+
 .site-footer {
   align-items: center;
   border-top: 1px solid var(--color-rule);
@@ -619,6 +719,20 @@ a {
 
   .about-section__grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .city-gallery__grid {
+    grid-auto-rows: clamp(12rem, 56vw, 23rem);
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .city-gallery__item--workspace,
+  .city-gallery__item--bridge,
+  .city-gallery__item--street,
+  .city-gallery__item--brick,
+  .city-gallery__item--subway,
+  .city-gallery__item--tower {
+    grid-column: auto;
   }
 
   .about-section__title {
