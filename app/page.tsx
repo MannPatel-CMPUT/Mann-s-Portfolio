@@ -53,7 +53,45 @@ export default function Home() {
             <span>↓</span>
           </p>
         </section>
+
+        <section className="about-section" id="about-details" aria-labelledby="about-heading">
+          <div className="about-section__inner">
+            <header className="about-section__header">
+              <p className="eyebrow">01 — About</p>
+              <h2 className="about-section__title" id="about-heading">
+                Building things that <em>actually matter.</em>
+              </h2>
+            </header>
+
+            <div className="about-section__grid">
+              <p className="about-section__intro">
+                I’m a software developer and Computing Science student at the University of Alberta.
+                I’m interested in full-stack applications, backend engineering, cloud infrastructure,
+                AI/ML systems, and software automation.
+              </p>
+
+              <ul className="about-section__interests" aria-label="Areas of interest">
+                <li>
+                  <h3>Backend &amp; Cloud Engineering</h3>
+                  <p>Backend engineering and cloud infrastructure.</p>
+                </li>
+                <li>
+                  <h3>Full-Stack Development</h3>
+                  <p>Full-stack applications across client and server.</p>
+                </li>
+                <li>
+                  <h3>AI &amp; Software Automation</h3>
+                  <p>AI/ML systems and practical software automation.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </main>
+      <footer className="site-footer">
+        <p>© 2026 Mann Patel</p>
+        <p>Edmonton, AB · Canada</p>
+      </footer>
     </>
   );
 }

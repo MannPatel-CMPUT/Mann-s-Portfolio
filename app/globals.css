@@ -381,6 +381,99 @@ a {
   width: 1px;
 }
 
+.about-section {
+  background: var(--color-paper);
+  padding: clamp(4.5rem, 9vw, 8rem) clamp(1.25rem, 5vw, 5rem);
+}
+
+.about-section__inner {
+  margin-inline: auto;
+  max-width: 90rem;
+}
+
+.about-section__header {
+  max-width: 54rem;
+}
+
+.about-section__title {
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-size: clamp(3.25rem, 6vw, 5.25rem);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1;
+  margin: 1.25rem 0 0;
+}
+
+.about-section__title em {
+  color: var(--color-copper-deep);
+  font-weight: 400;
+}
+
+.about-section__grid {
+  display: grid;
+  gap: clamp(3rem, 8vw, 8rem);
+  grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.9fr);
+  margin-top: clamp(2.75rem, 6vw, 5rem);
+}
+
+.about-section__intro {
+  color: var(--color-muted);
+  font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+  line-height: 1.85;
+  margin: 0;
+  max-width: 38rem;
+}
+
+.about-section__interests {
+  display: grid;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-section__interests li {
+  border-left: 1px solid var(--color-copper);
+  padding: 0.15rem 0 0.15rem 1.25rem;
+}
+
+.about-section__interests h3 {
+  color: var(--color-copper-deep);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  line-height: 1.5;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.about-section__interests p {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0.55rem 0 0;
+}
+
+.site-footer {
+  align-items: center;
+  border-top: 1px solid var(--color-rule);
+  color: var(--color-muted);
+  display: flex;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  gap: 1rem;
+  justify-content: space-between;
+  letter-spacing: 0.1em;
+  padding: 1.5rem clamp(1.25rem, 5vw, 5rem);
+  text-transform: uppercase;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -522,6 +615,20 @@ a {
 
   .hero__scroll {
     bottom: 1rem;
+  }
+
+  .about-section__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-section__title {
+    max-width: 12ch;
+  }
+
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
   }
 }
 
