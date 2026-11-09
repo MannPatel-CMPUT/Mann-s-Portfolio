@@ -26,4 +26,3 @@ pnpm-debug.log*
 
 # TypeScript build output
 *.tsbuildinfo
-/next-env.d.ts
