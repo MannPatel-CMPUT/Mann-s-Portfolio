@@ -14,7 +14,7 @@ export default function Home() {
         <section className="hero" id="about" aria-labelledby="hero-title">
           <Image
             className="hero__image"
-            src="/images/nyc-skyline.jpg"
+            src="/images/owner-supplied/nyc-skyline-under-dramatic-clouds.png"
             alt="Lower Manhattan and the Brooklyn Bridge across the East River beneath an overcast sky"
             fill
             priority
@@ -84,6 +84,76 @@ export default function Home() {
                   <p>AI/ML systems and practical software automation.</p>
                 </li>
               </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="city-gallery" aria-labelledby="city-gallery-heading">
+          <div className="city-gallery__inner">
+            <header className="city-gallery__header">
+              <p className="eyebrow">New York · In focus</p>
+              <h2 className="city-gallery__title" id="city-gallery-heading">
+                Details of a <em>city.</em>
+              </h2>
+              <p className="city-gallery__description">
+                A few views of the places and everyday scenes behind the skyline.
+              </p>
+            </header>
+            <div className="city-gallery__grid">
+              <figure className="city-gallery__item city-gallery__item--workspace">
+                <Image
+                  src="/images/owner-supplied/workspace-laptop.png"
+                  alt="A laptop and notebook on a desk overlooking the New York skyline"
+                  fill
+                  sizes="(max-width: 767px) 100vw, 50vw"
+                />
+                <figcaption>At the desk</figcaption>
+              </figure>
+              <figure className="city-gallery__item city-gallery__item--bridge">
+                <Image
+                  src="/images/owner-supplied/brooklyn-bridge-detail.png"
+                  alt="Stone tower and suspension cables of the Brooklyn Bridge beneath a cloudy sky"
+                  fill
+                  sizes="(max-width: 767px) 100vw, 50vw"
+                />
+                <figcaption>Brooklyn Bridge</figcaption>
+              </figure>
+              <figure className="city-gallery__item city-gallery__item--street">
+                <Image
+                  src="/images/owner-supplied/rainy-midtown-street.png"
+                  alt="Rainy Manhattan street with yellow taxis and autumn trees"
+                  fill
+                  sizes="(max-width: 767px) 100vw, 50vw"
+                />
+                <figcaption>After the rain</figcaption>
+              </figure>
+              <figure className="city-gallery__item city-gallery__item--brick">
+                <Image
+                  src="/images/owner-supplied/brick-fire-escape.png"
+                  alt="Fire escape on a red brick New York apartment building"
+                  fill
+                  sizes="(max-width: 767px) 100vw, 50vw"
+                />
+                <figcaption>Brick &amp; iron</figcaption>
+              </figure>
+              <figure className="city-gallery__item city-gallery__item--subway">
+                <Image
+                  src="/images/owner-supplied/subway-entrance.png"
+                  alt="Subway entrance framed by stonework and autumn trees"
+                  fill
+                  sizes="(max-width: 767px) 100vw, 50vw"
+                />
+                <figcaption>Street level</figcaption>
+              </figure>
+              <figure className="city-gallery__item city-gallery__item--tower">
+                <Image
+                  src="/images/owner-supplied/water-tower-skyline.png"
+                  alt="Rooftop water tower with the Empire State Building in the background"
+                  fill
+                  sizes="(max-width: 767px) 100vw, 50vw"
+                />
+                <figcaption>Above the rooftops</figcaption>
+              </figure>
             </div>
           </div>
         </section>

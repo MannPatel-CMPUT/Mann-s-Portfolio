@@ -1,8 +1,20 @@
 # Image credits and licenses
 
-## Hero photograph
+## Current hero and editorial gallery
 
-- **File:** `nyc-skyline.jpg` (2400 × 1486, JPEG)
+The following images were supplied by Mann Patel and are used with the owner's permission. The skyline image is the landing-page hero; the six supporting images form an editorial city gallery and are not project screenshots or evidence of portfolio work. No third-party license or photographer attribution is claimed for these owner-supplied files.
+
+- `owner-supplied/nyc-skyline-under-dramatic-clouds.png` — landing-page hero.
+- `owner-supplied/workspace-laptop.png` — desk scene.
+- `owner-supplied/brooklyn-bridge-detail.png` — bridge detail.
+- `owner-supplied/rainy-midtown-street.png` — rainy street.
+- `owner-supplied/brick-fire-escape.png` — brick facade and fire escape.
+- `owner-supplied/subway-entrance.png` — subway entrance.
+- `owner-supplied/water-tower-skyline.png` — rooftop water tower and skyline.
+
+## Unused alternate hero photograph
+
+- **File:** `nyc-skyline.jpg` (2400 × 1486, JPEG; retained locally, not currently displayed)
 - **Photographer:** Bradley Andrews (`@bradleyandroos`)
 - **Source:** [New York City skyline on a cloudy day](https://unsplash.com/photos/new-york-city-skyline-on-a-cloudy-day-e_j85XA0BBY)
 - **License:** [Unsplash License](https://unsplash.com/license)

@@ -16,8 +16,9 @@ The About copy and footer details below are taken directly from the owner-suppli
 | LinkedIn profile link | Pending | Confirm the exact public profile URL |
 | Email address | Pending | Confirm the public contact address and intended use |
 | Footer location | Owner-supplied | Edmonton, AB · Canada, as specified in the brief |
-| NYC hero photograph | Selected and documented | Locally stored Unsplash photograph by Bradley Andrews; source, download variant, and Unsplash License recorded in `public/images/README.md`; visually reviewed for cloudy daylight, city color, and composition |
+| NYC hero photograph | Owner-supplied | `nyc-skyline-under-dramatic-clouds.png` is the landing hero; owner permission and file usage are recorded in `public/images/README.md` |
+| Supporting editorial photography | Owner-supplied | Six supplied city/work images appear in a separate editorial gallery and are not presented as project screenshots; usage is recorded in `public/images/README.md` |
 | Project screenshots | Missing | Obtain authentic screenshots and confirm publication rights; do not fabricate product UI |
-| Other photography/assets | Pending | Record source, license, attribution requirements, and permission for each asset |
+| Other photography/assets | The previous Unsplash hero is unused | Its source, photographer, and Unsplash License remain documented in `public/images/README.md` |
 
 Do not publish a feature or achievement based solely on the design brief. It describes intended content, but is not evidence that the content is accurate.
