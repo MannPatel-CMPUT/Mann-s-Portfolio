@@ -17,7 +17,11 @@ function LinkList({ onNavigate }: { onNavigate?: () => void }) {
     <ul className="site-nav__links">
       {links.map(({ href, label }) => (
         <li key={href}>
-          <Link href={href} onClick={onNavigate}>
+          <Link
+            href={href}
+            onClick={onNavigate}
+            aria-current={label === "About" ? "location" : undefined}
+          >
             {label}
           </Link>
         </li>
