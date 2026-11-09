@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ActionLink } from "@/components/ui/action-link";
+import { GitHubLink } from "@/components/github-link";
 import { Navigation } from "@/components/navigation";
 
 export default function Home() {
@@ -40,6 +41,9 @@ export default function Home() {
                 <ActionLink href="#contact" variant="secondary">
                   Get in touch
                 </ActionLink>
+                <div className="hero__social">
+                  <GitHubLink />
+                </div>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ No personal content, project claims, links, screenshots, resume files, or photog
 | All Clear project | Pending | Confirm ownership, features, technologies, dates, public links, and publishable screenshots |
 | EventLottery project | Pending | Confirm ownership, features, stack, dates, public links, and publishable screenshots |
 | Resume PDF | Missing | Obtain the actual approved PDF and confirm it is current and suitable for public download |
-| GitHub profile link | Pending | Confirm the exact public profile URL |
+| GitHub profile link | Verified | Connected GitHub profile matches the repository owner; public URL: `https://github.com/MannPatel-CMPUT` |
 | LinkedIn profile link | Pending | Confirm the exact public profile URL |
 | Email address | Pending | Confirm the public contact address and intended use |
 | NYC hero photograph | Selected and documented | Locally stored Unsplash photograph by Bradley Andrews; source, download variant, and Unsplash License recorded in `public/images/README.md`; visually reviewed for cloudy daylight, city color, and composition |
