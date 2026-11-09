@@ -32,6 +32,7 @@ Run `npm run lint`, `npm run typecheck`, and `npm run build` before opening a pu
 
 ```text
 app/                         App Router pages, layout, and global styles
+components/ui/               Shared accessible controls
 docs/design-brief.md         Product and visual requirements plus roadmap
 docs/content-checklist.md    Verification status for portfolio materials
 .github/workflows/ci.yml     Pull request and main-branch checks
